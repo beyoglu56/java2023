@@ -1,0 +1,30 @@
+public class Main {
+public static void main(String[] args) {
+
+char grade = 'H';
+switch (grade) {
+case 'A': 
+System.out.println("Great: You passed the exam");
+break;
+
+case 'B': 
+System.out.println("Very good: You passed the exam");
+break;
+
+case 'C': 
+System.out.println("Good: You passed the exam");
+break;
+
+case 'D': 
+System.out.println("Bad: You passed the exam");
+break;
+
+case 'F': 
+System.out.println("Unfortunately You failed the exam");
+break;
+default: 
+System.out.println("You entered an invalid note");
+
+}
+}
+}
